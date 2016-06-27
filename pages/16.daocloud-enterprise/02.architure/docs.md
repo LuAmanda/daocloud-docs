@@ -22,7 +22,7 @@ DCE 主控节点负责处理用户所有的请求，同时为用户提供一套�
 | dce_agent | 运行用户所有的容器和应用 |
 | dce_controller | 调用 dce_swarm_manager 服务，向用户提供 WEB 控制台 UI，集群管理 API 和 CLI 运维套件服务 |
 | dce_swarm_manager | 安装有 Swarm 服务的容器，负责容器节点的管理和自发现 |
-| dec_etcd | key-value 键值库，负责存储集群中的各种信息，如虚拟网络信息，用户信息等 |
+| dce_etcd | key-value 键值库，负责存储集群中的各种信息，如虚拟网络信息，用户信息等 |
 
 
 ### DCE 副控节点
@@ -41,7 +41,7 @@ DCE 目前已经支持高可用性方案。如果你需要一个高可用容器�
 | dce_agent | 运行用户所有的容器和应用 |
 | dce_controller | 调用 dce_swarm_manager 服务，向用户提供 WEB 控制台 UI，集群管理 API 和 CLI 运维套件服务 |
 | dce_swarm_manager | 安装有 Swarm 服务的容器，负责管理和发现容器节点 |
-| dec_etcd | key-value 键值库，负责存储集群中的各种信息，如虚拟网络信息，用户信息等 |
+| dce_etcd | key-value 键值库，负责存储集群中的各种信息，如虚拟网络信息，用户信息等 |
 
 ### DCE 容器节点
 
